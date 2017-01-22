@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/list_1"
+            android:title="充分就业街道比例图"
+            android:textSize="16sp"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/list_2"
+            android:title="充分就业街道年度完成指标(乡)"
+            android:textSize="16sp"
+            />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/list_3"
+            android:title="充分就业街道年度完成指标(村)"
+            android:textSize="16sp"
+            />
+        <item
+            
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/list_4"
+            android:title="充分就业申请机构花名册"
+            android:textSize="16sp"/>
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
